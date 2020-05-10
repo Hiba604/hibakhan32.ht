@@ -1,177 +1,28 @@
-body {
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    margin: 0 auto;
-    padding: 0;
-  }
-  
-  .top-navbar {
-    background-color: rgb(38, 119, 151);
-    color: white;
-    width: 100%;
-    margin: 0 auto;
-    padding: 15px 10px;
-  }
-  
-  
-  .top-nav {
-    padding: 12px;
-    display: inline;
-  }
-  .top-nav a {
-    text-decoration: none;
-    color: white;
-    padding: 0 10px;
-    border-right: 1px solid rgb(61, 8, 252);
-  }
-  
-  .top-nav a:last-child {
-    border-right: none;
-  }
-  .top-nav-heading {
-    padding: 0 270px;
-    font-size: 65px;
-  }
-  
-  .topnav-btns {
-    display: inline;
-    padding-left: 40px;
-  }
-  .top-btns {
-    background-color: rgb(39, 106, 133);
-    color: white;
-    border: 1px solid lightblue;
-    border-radius: 4px;
-    padding: 8px 30px;
-    text-align: center;
-    margin-right: 12px;
-  }
-  
-  
-  .bottom-navbar {
-    background-color: rgb(6, 47, 143);
-    color: white;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 10px;
-  }
-  
-  .bottom-nav {
-    list-style: none;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  .bottom-nav li {
-    display: inline-block;
-    border-left: 1px solid lightblue;
-  }
-  .bottom-nav li a:hover {
-    background-color: rgb(37, 37, 238);
-  }
-  .bottom-nav li:last-child {
-    border-right: 1px solid rgb(0, 4, 5);
-  }
-  .bottom-nav li a {
-    display: block;
-    padding: 22px 40px;
-    text-decoration: none;
-    color: white;
-    font-weight: 800;
-    margin: 0 30px;
-  }
-  
-  .green-box {
+.form-inline {
     display: flex;
-    margin: 34px 0px -12px 0px;
-    padding: 22px 30px;
-    background-color: rgb(150, 240, 48);
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  .form-inline label {
+    margin: 5px 10px 5px 0;
+  }
+  .form-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  .form-inline button {
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
     color: white;
   }
-  .green-box-1 {
-    flex: 2;
-    font-size: 55px;
-    padding-left: 15px;
+  .form-inline button:hover {
+    background-color: royalblue;
   }
-  .green-box-2 {
-    flex: 3;
-    font-size: 21px;
-    padding-top: 5px;
-  }
-  .programs {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    margin: 5px 40px;
-  }
-  .program-box {
-    flex: 1;
-    background-color: rgb(213, 238, 247);
-    margin: 4px;
-    padding: 5px 40px 30px 56px;
-  }
-  .program-box-heading {
-    color: rgb(42, 42, 218);
-    font-size: 35px;
-  }
-  .program-box-text {
-    color: grey;
+  body, p, input,div {
     font-size: 18px;
-    margin-top: -25px;
   }
-  
-  .programs-2 {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    margin: 5px 40px;
-  }
-  .program-box-2 {
-    flex: 1;
-    color: white;
-    margin: 0 20px;
-    padding: 5px 5px -16px 10px;
-    font-size: 42px;
-  }
-  .purple-bg {
-    background-color: rgb(110, 23, 110);
-  }
-  .blue-bg {
-    background-color: rgb(42, 42, 255);
-  }
-  
-  
-  
-  footer {
-    background-color: rgb(102, 101, 101);
-    color: rgb(0, 0, 0);
-    padding-top: 60px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
-  }
-  .footer-main {
-  }
-  footer ul {
-    list-style: none;
-  }
-  footer ul li a {
-    text-decoration: none;
-    color: white;
-    margin-left: -40px;
-  }
-  .footer-top {
-    display: flex;
-  }
-  .footer-link-group {
-    flex: 2;
-  
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(150px, auto);
-    grid-gap: 10px;
-    margin: 0 auto;
-  }
-  .footer-sidebar {
-    flex: 1;
-  }
+ 
